@@ -608,7 +608,11 @@ progress {
   height: auto;
   padding: 10px;
 }
-
+.bio {
+  color: #6c757d !important;
+  text-decoration: none;
+  font-weight: bold;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
