@@ -606,7 +606,13 @@ progress {
 .img-fluid {
   max-width: 40%;
   height: auto;
-  padding: 10px;
+  border-radius: 5px;
+  /* border: .2px solid #d6d6d6;
+  box-shadow: inset; */
+  padding-right: 20px;
+}
+#pollpal {
+  max-width: 60%;
 }
 .bio {
   color: #6c757d !important;
@@ -1309,6 +1315,16 @@ progress {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
+  #statement {
+    width: 100%;
+  }
+  /* .prototype1 {
+    width: 300px;
+    height: 400px;
+  }
+  #prototype {
+     flex: column;
+  } */
   .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
